@@ -48,7 +48,7 @@ export default async function (eleventyConfig, options = {}) {
       output: "_site",
       layouts: "_layouts", // Standard layouts dir (will be populated by plugin)
     },
-    templateFormats: ["md", "njk", "html", "css", "11ty.js"],
+    templateFormats: ["md", "njk", "html", "css"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
   };
