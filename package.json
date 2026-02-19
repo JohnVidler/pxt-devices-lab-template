@@ -1,0 +1,33 @@
+{
+  "name": "user-doc-template",
+  "version": "1.0.0",
+  "description": "A template repository for user-facing documentation of hardware",
+  "main": "eleventy.config.js",
+  "repository": "https://github.com/devices-lab/user-doc-template.git",
+  "author": "Dr John Vidler <j.vidler@lancaster.ac.uk>",
+  "contributors": [
+    "Mannu Lambrichts <m.lambrichts@lancaster.ac.uk>",
+    "Glen Dobson <g.dobson@lancaster.ac.uk>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@devices-lab/user-doc-base": "https://github.com/devices-lab/user-doc-base.git#main"
+  },
+  "scripts": {
+    "dev:11ty": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "extra": {
+    "title": "A Documentation Template from Devices Lab, Lancaster",
+    "keywords": [
+      "example",
+      "keywords",
+      "documentation"
+    ],
+    "hwidx": [
+      "hwidx.org/0/0/0.0"
+    ]
+  }
+}
