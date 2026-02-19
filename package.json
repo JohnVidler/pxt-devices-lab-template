@@ -11,6 +11,7 @@
   ],
   "license": "MIT",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@devices-lab/user-doc-base": "https://github.com/devices-lab/user-doc-base.git#main"
