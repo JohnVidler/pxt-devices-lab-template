@@ -1,7 +1,7 @@
 {
-  "name": "user-doc-template",
+  "name": "pxt-devices-lab-template",
   "version": "1.0.0",
-  "description": "A template repository for user-facing documentation of hardware",
+  "description": "A template for documentation of makecode extensions",
   "main": "eleventy.config.js",
   "repository": "https://github.com/devices-lab/user-doc-template.git",
   "author": "Dr John Vidler <j.vidler@lancaster.ac.uk>",
@@ -25,9 +25,6 @@
       "example",
       "keywords",
       "documentation"
-    ],
-    "hwidx": [
-      "hwidx.org/0/0/0.0"
     ]
   }
 }
