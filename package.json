@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A template for documentation of makecode extensions",
   "main": "eleventy.config.js",
-  "repository": "https://github.com/devices-lab/user-doc-template.git",
+  "repository": "https://github.com/devices-lab/pxt-makecode-template",
   "author": "Dr John Vidler <j.vidler@lancaster.ac.uk>",
   "contributors": [
     "Mannu Lambrichts <m.lambrichts@lancaster.ac.uk>",
