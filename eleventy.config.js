@@ -7,7 +7,7 @@ export default async function (eleventyConfig, options = {}) {
   const siteData = JSON.parse(file.readFileSync("./package.json", "utf-8"));
 
   // Register user-doc-base plugin with this project's input dir
-  await userDocBase(eleventyConfig, { inputDir: "src", syncChanges: true });
+  await userDocBase(eleventyConfig, { inputDir: "src", syncChanges: false });
 
   // Copy the root README.md to src/index.md, so that it can be rendered as the homepage content.
   eleventyConfig.on("eleventy.before", () => {
